@@ -1,22 +1,22 @@
 {
   "nodes": [
-    {"id": "ODH", "name":"ODH","group": 1},
-    {"id": "GPS", "name":"GPS", "group": 1},
-    {"id": "Atria", "name":"Atria", "group": 1},
-    {"id": "WebMed", "name":"WebMed", "group": 1},
-    {"id": "Omega", "name":"Omega", "group": 1},
-    {"id": "Salesforce", "name":"Salesforce", "group": 1}
+    {"id": "uno", "name":"uno","group": 1},
+    {"id": "dos", "name":"dos", "group": 1},
+    {"id": "tres", "name":"tres", "group": 1},
+    {"id": "cuatro", "name":"cuatro", "group": 1},
+    {"id": "cinco", "name":"cinco", "group": 1},
+    {"id": "seis", "name":"seis", "group": 1}
 
   ],
   "links": [
-    {"source": "ODH", "target": "Salesforce", "value": 1},
-    {"source": "ODH", "target": "WebMed", "value": 1},
-    {"source": "Omega", "target": "Atria", "value": 1},
-    {"source": "WebMed", "target": "ODH", "value": 1},
-    {"source": "WebMed", "target": "Salesforce", "value": 1},
-    {"source": "Atria", "target": "ODH", "value": 1},
-    {"source": "Atria", "target": "Salesforce", "value": 1},
-    {"source": "GPS", "target": "ODH", "value": 1},
-    {"source": "GPS", "target": "Salesforce", "value": 1}
+    {"source": "uno", "target": "seis", "value": 1},
+    {"source": "uno", "target": "cuatro", "value": 1},
+    {"source": "cinco", "target": "tres", "value": 1},
+    {"source": "cuatro", "target": "uno", "value": 1},
+    {"source": "cuatro", "target": "seis", "value": 1},
+    {"source": "tres", "target": "uno", "value": 1},
+    {"source": "tres", "target": "seis", "value": 1},
+    {"source": "dos", "target": "uno", "value": 1},
+    {"source": "dos", "target": "seis", "value": 1}
   ]
 }
